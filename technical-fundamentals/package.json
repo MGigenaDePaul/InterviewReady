@@ -1,0 +1,32 @@
+{
+  "name": "cracking-the-coding-interview",
+  "version": "1.0.0",
+  "description": "Crackin the coding interview problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest ./coding/problems/__tests__/",
+    "test-coding": "vitest ./coding/__tests__/",
+    "strings": "vitest ./coding/problems/__tests__/strings --reporter=default --reporter=./silverReporter.ts",
+    "lists": "vitest ./coding/problems/__tests__/lists --reporter=default --reporter=./silverReporter.ts",
+    "stacks": "vitest ./coding/problems/__tests__/stacks --reporter=default --reporter=./silverReporter.ts",
+    "trees": "vitest ./coding/problems/__tests__/trees --reporter=default --reporter=./silverReporter.ts",
+    "recursion": "vitest ./coding/problems/__tests__/recursion --reporter=default --reporter=./silverReporter.ts"
+  },
+  "keywords": [
+    "cracking",
+    "the",
+    "coding",
+    "interview"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "chalk": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.5"
+  }
+}

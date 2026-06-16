@@ -1,0 +1,5 @@
+.DS_STORE
+
+.next
+**/node_modules
+coding-challenges/yarn.lock
